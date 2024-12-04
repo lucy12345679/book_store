@@ -1,5 +1,10 @@
 pipeline {
-    agent any
+    agent {
+        node {
+            label 'linux'
+            customWorkspace '/tmp/jenkins-workspace'
+        }
+    }
     environment {
         DOCKER_IMAGE = "book_store_app"
     }
