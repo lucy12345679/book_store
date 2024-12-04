@@ -1,5 +1,10 @@
 pipeline {
-    agent any
+    agent {
+        node {
+            label 'linux'
+            customWorkspace '/tmp/jenkins-workspace'
+        }
+    }
     environment {
         DOCKER_IMAGE = "book_store_app"
     }
@@ -17,12 +22,11 @@ pipeline {
         }
         stage('Build Docker Image') {
             steps {
-                sh 'docker-compose build' // Build the Docker containers using Docker Compose
+                sh 'docker-compose build'
             }
         }
         stage('Run Tests') {
             steps {
-                // Changed from `bat` to `sh` for compatibility with Linux
                 sh 'docker-compose run --rm web php vendor/bin/phpunit'
             }
         }
