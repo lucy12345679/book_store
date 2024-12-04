@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/YakubovaMakhliyo/orchidbook.git'
+                git branch: 'main', url: 'https://github.com/lucy12345679/book_store.git'
             }
         }
         stage('Install Dependencies') {
