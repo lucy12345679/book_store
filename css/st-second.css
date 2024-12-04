@@ -1,0 +1,138 @@
+#form-con {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/bookstore-hero-image.jpg.optimal\ -\ Copy\ -\ Copy\ \(2\).jpg");
+}
+#form-wrap {
+  width: 700px;
+  background-color: burlywood;
+}
+#btn-reg {
+  background-color: black;
+}
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+#login-con {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/bookstore-hero-image.jpg.optimal\ -\ Copy\ -\ Copy\ \(2\).jpg");
+  opacity: 0.7;
+}
+#reg-color {
+  color:  rgb(216, 211, 211);
+}
+/* admin control */
+#admin-message {
+  font-weight: 900;
+  color: black;
+}
+#sec-message {
+  background-image: url("../images/bookstore-hero-image.jpg.optimal\ -\ Copy\ -\ Copy\ \(2\).jpg");
+  opacity: 0.7;
+  background-size: cover;
+}
+#box-con {
+  background-color: black;
+}
+/* home page */
+#home-page {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/360_F_144292777_ae60RH6idxDxQLYnIuNXpsD6LGvrArxb.jpg");
+}
+#context h3 {
+  color: black;
+}
+#context p {
+  color: black;
+}
+#black {
+  background-color: black;
+}
+#brown {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/mqSg2I.jpg");
+}
+#products-img {
+  width: 100%;
+}
+#card {
+  background: burlywood;
+}
+
+#box-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+
+/* loader */
+
+#loader {
+    display: flex;
+    align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: 99;
+}
+.myName span :nth-child(1) {
+  animation-delay: 4s;
+}
+.myName span :nth-child(2) {
+  animation-delay: 5s;
+}
+.myName span :nth-child(3) {
+  animation-delay: 6s;
+}
+.myName1 span :nth-child(4) {
+  animation-delay: 7s;
+}
+.myName span :nth-child(5) {
+  animation-delay: 8s;
+}
+.myName span :nth-child(6) {
+  animation-delay: 9s;
+}
+.myName span :nth-child(7) {
+  animation-delay: 10s;
+}
+.myName span :nth-child(8) {
+  animation-delay: 11s;
+}
+
+video {
+  object-fit: cover;
+  filter: hue-rotate(100%);
+}
+.myName {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: #ddd;
+  font-size: 5em;
+  font-family: sans-serif;
+  letter-spacing: 0.2em;
+}
+.myName span {
+  display: inline-block;
+  opacity: 0;
+  animation: animate 7s linear infinite forwards !important;
+}
+#white {
+    
+  color: white;
+  font-size: 80px;
+  background-color: blue;
+}

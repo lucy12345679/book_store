@@ -1,0 +1,26 @@
+
+#contact-color{
+    background-color: bisque;
+    text-align: center;
+}
+#c-form{
+    background-color: burlywood;
+}
+#img{
+    height: 500px;
+    width: 300px;
+/* background-image: url("../images/download\ \(1\).jpg"); */
+background-repeat: no-repeat;
+background-size: cover;
+}
+#contact-color h1{
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+#contact-color h2{
+    font-size: 40px;
+}
+#contact-color p{
+    margin: 50px;
+    font-size: 20px;
+}

@@ -1,0 +1,39 @@
+#admin-orders {
+  background-color: bisque;
+}
+#admin-orders h1 {
+  font-style: italic;
+  color: yellow;
+}
+#order-box {
+  width: 500px;
+  background-image: linear-gradient(
+    to right,
+     rgb(216, 211, 211),
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+
+#c-black {
+  color: black;
+}
+#black {
+  background-color: black;
+}
+#c-white {
+  color: grey;
+}
+#red {
+  border: 50%;
+ 
+}
+#no-orders{
+    width: 100%;
+    background-color: rgb(229, 36, 36);
+    color: white;
+}

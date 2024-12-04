@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Use the Dockerfile provided in your project directory
+    ports:
+      - "8081:80"
+    volumes:
+      - ./Book_Store:/var/www/html  # Mount local directory to container to sync files
+    environment:
+      MYSQL_HOST: db
+      MYSQL_DATABASE: book_store_db
+      MYSQL_USER: root
+      MYSQL_PASSWORD: password
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+    ports:
+      - "3306:3306"  # Expose MySQL port to the host
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: book_store_db

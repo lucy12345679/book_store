@@ -1,0 +1,40 @@
+#c-white{
+    color: white;
+    
+}
+
+#black{
+    
+    background-color: black;
+}
+#nav a{
+    color: white;
+}
+#c-red{
+    color: rgb(216, 211, 211);
+    
+}
+#control{
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+}
+#admin{
+    font-size: 40px;
+    color: black;
+    font-style: italic;
+}
+#red{
+    background-color: rgb(216, 211, 211);
+}
+#c-white{
+    color: white;
+}
+#green{
+    color: green;
+}
+#account-b{
+    background-color: black;
+    width: 400px;
+    height: 200px;
+}

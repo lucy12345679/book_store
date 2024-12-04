@@ -1,0 +1,23 @@
+#d-order{
+    background-image: url("../images/top-view-books-arrangement_23-2148882754.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#check{
+   color: white;
+ 
+}
+#check-form{
+    background: black;
+}
+#check-form h3{
+    color: white;
+}
+#check-form span{
+    color: white;
+}
+#g-total{
+   color: white;
+    font-weight: bolder;
+    font-size: 60px;
+}

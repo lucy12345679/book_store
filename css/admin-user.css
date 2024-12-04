@@ -1,0 +1,25 @@
+#admin-user h1 {
+  color: yellow;
+}
+#ad-user_body {
+    overflow-x: scroll;
+  background-color: bisque;
+}
+
+#ad-box{
+    display: flex;
+   
+}
+#black{
+    background-color: black;
+}
+#bx{
+   
+    background-color: burlywood;
+}
+#c-black{
+    color: black;
+}
+#c-red{
+    color:  rgb(216, 211, 211);
+}

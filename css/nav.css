@@ -1,0 +1,53 @@
+#nav{
+    background-color:  rgb(216, 211, 211);
+}
+#black{
+    
+    background-color: black;
+}
+#black-color{
+    color: black;
+    font-weight: 900;
+}
+#black a{
+    color:  rgb(216, 211, 211);
+}
+#user-btn{
+    color: rgb(216, 211, 211);
+}
+#flexx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#l-href{
+    font-style: italic;
+    font-size: 40px;
+}
+#qora{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+#style{
+    color: black;
+}
+/* user account */
+#user-b{
+    height: 300px;width: 400px;
+    background-color:bisque;
+}
+#user-img{
+    width: 70px;
+    height: 70px;
+    background-image: url("../images/istockphoto-1128400054-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#log-out{
+    background-color: black;
+    color: white;
+}
+#c-red{
+    color:  rgb(216, 211, 211);
+}

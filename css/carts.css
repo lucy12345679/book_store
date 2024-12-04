@@ -1,0 +1,27 @@
+#cart-body {
+  background-color: bisque;
+}
+#brown {
+  background-color: burlywood;
+}
+#black {
+  background-color: black;
+}
+#red {
+  background-color:  rgb(216, 211, 211);
+}
+#green {
+  background-color: green;
+}
+#c-black {
+  color: black;
+  font-weight: bold;
+}
+#c-red {
+    color:  rgb(216, 211, 211);
+    font-weight: bold;
+}
+#total-amount{
+    width: 500px;
+    background-color: burlywood;
+}

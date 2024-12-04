@@ -1,0 +1,11 @@
+#search-head {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/top-view-books-arrangement_23-2148882754.avif");
+}
+#search-body {
+  background-color: bisque;
+}
+#search-form {
+  background-color: burlywood;
+}

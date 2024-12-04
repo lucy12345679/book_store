@@ -1,0 +1,35 @@
+#message-body {
+  background-color: bisque;
+}
+#message-body h1 {
+  font-size: 50px;
+  font-style: italic;
+  color: yellow;
+}
+#box-con div {
+  border-radius: 40px;
+  height: 500px;
+  background-image: linear-gradient(
+    to right,
+     rgb(216, 211, 211),
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+#black{
+    background-color: black;
+}
+#c-black{
+    color: black;
+}
+#c-white{
+    color: white;
+}
+#box-c{
+    width: 500px;
+    background-color: black;
+}
